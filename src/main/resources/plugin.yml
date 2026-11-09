@@ -1,0 +1,13 @@
+name: RainbowOre
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  rainbowore:
+    description: Gives you a rainbow ore block.
+    usage: /rainbowore [amount]
+    permission: rainbowore.give
+permissions:
+  rainbowore.give:
+    description: Allows the player to receive rainbow ore.
+    default: op
